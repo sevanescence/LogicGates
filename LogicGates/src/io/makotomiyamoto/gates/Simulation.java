@@ -10,12 +10,12 @@ public class Simulation {
 
         boolean[] inputs = {true, true};
 
-        System.out.println(new AndGate(inputs).getQuery());
-        System.out.println(new NandGate(inputs).getQuery());
-        System.out.println(new OrGate(inputs).getQuery());
-        System.out.println(new NorGate(inputs).getQuery());
-        System.out.println(new ExorGate(inputs).getQuery());
-        System.out.println(new ExNorGate(inputs).getQuery());
+        System.out.println(new AndGate(inputs).getQuery()); // true
+        System.out.println(new NandGate(inputs).getQuery()); // false
+        System.out.println(new OrGate(inputs).getQuery()); // true
+        System.out.println(new NorGate(inputs).getQuery()); // false
+        System.out.println(new ExorGate(inputs).getQuery()); // false
+        System.out.println(new ExNorGate(inputs).getQuery()); // true
 
     }
 
