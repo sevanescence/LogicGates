@@ -5,6 +5,10 @@ The Self-Deprecating Developer is a series in which I -- the useless developer -
 
 So essentially, I milk my career for views.
 
+# What I learned from this project
+
+Honestly, this project gave me an extremely clear understand of abstracting, inheritance, and implementation, and I feel stupid not having understood it this clearly before finishing the project.
+
 # Documentation
 
 ##### LogicGate
