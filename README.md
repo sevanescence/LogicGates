@@ -10,12 +10,19 @@ So essentially, I milk my career for views.
 ##### LogicGate
 ```
 #getInput1() - returns the boolean value of input1.
+
 #getInput2() - returns the boolean value of input2.
+
 #setInput1(boolean b) - sets the boolean value of input1.
+
 #setInput2(boolean b) - sets the boolean value of input2.
+
 #setInput1(boolean[] inputs) - sets the boolean value of input1 from the first item in a boolean array.
+
 #setInput2(boolean[] inputs) - sets the boolean value of input2 from the second item in a boolean array.
+
 #invertQuery() - returns the inverse of getQuery().
+
 #getQuery() - abstract, must be implemented by every subclass.
 ```
 
