@@ -65,3 +65,30 @@ boolean getQuery() // abstract, must be implemented by every subclass.
 ```
 #getQuery() - returns the inverse ExorGate.getQuery();
 ```
+
+#### Implementing LogicGate
+```java
+import io.makotomiyamoto.gates.objects.LogicGate;
+
+public class CustomGate extends LogicGate {
+
+  public CustomGate() {
+    super();
+  }
+  
+  public CustomGate(boolean input1, boolean input2) {
+    super(input1, input2);
+  }
+  
+  public CustomGate(boolean[] inputs) {
+    super(inputs);
+  }
+
+  @Override
+  public boolean getQuery() {
+    return (super.getInput1() || !super.getInput2());
+  }
+
+}
+```
+There really is no point in doing this, but at least it's possible :))
